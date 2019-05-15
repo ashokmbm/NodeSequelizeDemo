@@ -1,0 +1,22 @@
+
+{
+  "query": {
+    "bool": {
+          "should": [
+            { "status":"2"},
+            { "status":"3"}
+          ],
+        }
+    }
+}
+
+
+
+{
+  "query": {
+    "bool": {
+          "should": { "status": "1" },
+          "must": { "isAccountSilo": "true" }
+        }
+    }
+}

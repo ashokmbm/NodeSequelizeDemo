@@ -1,0 +1,25 @@
+{
+  "name": "upsert-file",
+  "version": "1.0.0",
+  "description": "upsert db files",
+  "main": "upsert-file.js",
+  "bin": {
+    "upsert-file": "upsert-file.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dipanshu Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "coa": "^2.0.2",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.6"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.4.0"
+  }
+}
